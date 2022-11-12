@@ -17,3 +17,9 @@ class Post extends Model
     ];
 
 }
+
+/*Di atas, kita menambahkan properti baru 
+yang bernama $fillable. Properti tersebut yang dinamakan 
+Mass Assigment di Laravel. 
+Dimana di dalamnya kita menambahkan field-field yang diizinkan untuk 
+melakukan manipulasi data.*/
